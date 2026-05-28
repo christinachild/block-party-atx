@@ -48,7 +48,7 @@ export default function TemplatesPage() {
                 📊
               </div>
               <div style={{ flex: "1 1 320px" }}>
-                <h3 style={{ marginTop: 0 }}>Grab the planner spreadsheet</h3>
+                <h3 style={{ marginTop: 0 }}>Get the planner — $5</h3>
                 <p className="muted">
                   A ready-to-use workbook with four tabs: a{" "}
                   <strong>Task Tracker</strong> (every timeline to-do with
@@ -60,17 +60,25 @@ export default function TemplatesPage() {
                   times and thank-you tracking.
                 </p>
                 <p className="muted" style={{ marginBottom: "1rem" }}>
-                  Opens in Excel, Numbers, or Google Sheets (use{" "}
-                  <em>File → Import</em> to bring it into Sheets).
+                  Opens in Excel, Numbers, or Google Sheets. Delivered instantly
+                  through Ko-fi right after checkout.
                 </p>
                 <a
                   className="btn btn-teal"
-                  href="/block-party-planner.xlsx"
-                  download
+                  href="https://ko-fi.com/s/5682a4e7e8"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  ⬇ Download the planner (.xlsx)
+                  💛 Get the planner — $5 on Ko-fi
                 </a>
               </div>
+            </div>
+            <div className="callout tip" style={{ marginTop: "1.25rem" }}>
+              💛{" "}
+              <strong>Every copy helps keep atxblockparty.com online.</strong>{" "}
+              Turns out throwing a party for the whole internet comes with annual
+              bills (the domain, hosting, the works!). Your fiver keeps the lights
+              on and the block parties going. Thanks, neighbor! 🎉
             </div>
             <div className="callout warn" style={{ marginBottom: 0 }}>
               <strong>It's just a template to get you started.</strong> Copy it
