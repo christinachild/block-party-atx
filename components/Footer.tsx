@@ -67,6 +67,26 @@ export function Footer() {
               </li>
             </ul>
           </div>
+          <div>
+            <h4>Support</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://ko-fi.com/s/5682a4e7e8"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  💛 Get the planner ($5)
+                </a>
+              </li>
+            </ul>
+            <p
+              className="muted"
+              style={{ fontSize: "0.85rem", marginTop: "0.4rem" }}
+            >
+              Buying the planner helps keep this site online.
+            </p>
+          </div>
         </div>
         <p
           style={{
