@@ -704,6 +704,24 @@ tr:last-child td {
   color: var(--ink-soft);
 }
 
+/* ---------- Planner CTA band ---------- */
+.cta-planner {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(255, 192, 30, 0.2), rgba(255, 46, 136, 0.12));
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--pop);
+  padding: 2.75rem 1.5rem;
+}
+.cta-planner h2 {
+  margin: 0.4rem 0 0.6rem;
+}
+.cta-planner p {
+  max-width: 56ch;
+  margin: 0 auto 1.5rem;
+  color: var(--ink-soft);
+}
+
 /* ---------- Respect reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   .marquee-track {

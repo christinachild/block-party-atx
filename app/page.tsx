@@ -180,6 +180,31 @@ export default function Home() {
 
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
+          <div className="cta-planner">
+            <div style={{ fontSize: "2.6rem", lineHeight: 1 }} aria-hidden="true">
+              📊
+            </div>
+            <h2>Want the whole plan in one spreadsheet?</h2>
+            <p>
+              The Block Party Planner bundles every timeline task (with
+              checkboxes and assignees), a budget tracker with auto-totaling
+              costs, and a donations &amp; sponsors log into one ready-to-use
+              workbook. Just $5 — and it helps keep this site online.
+            </p>
+            <a
+              className="btn btn-teal"
+              href="https://ko-fi.com/s/5682a4e7e8"
+              target="_blank"
+              rel="noreferrer"
+            >
+              💛 Get the planner — $5 on Ko-fi
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="container">
           <div className="callout austin">
             <strong>New to this? Start here.</strong> Read the{" "}
             <Link href="/timeline">timeline</Link> to see the whole arc, skim
